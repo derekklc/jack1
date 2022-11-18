@@ -1,23 +1,79 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# testing
-/coverage
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# production
-/build
-
-# misc
+# OS generated files #
+######################
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+dist
+node_modules
+coverage
+.cache
+.env
+stats.json
+
+# IDEs #
+######################
+.vscode/launch.json
+*.orig
+.vs
+.idea
+.history
+
+ci/jenkins_home
+
+junit.xml
+cucumber.json
+cucumber*.html
+
+slack_message.txt
+/html
+/.docz
+
+__pycache__
+.eslintcache
+
+# certificates #
+########################
+
+dev-machine.mecca.com.crt
+dev-machine.mecca.com.key
+
+
+# typescript 
+tsconfig.tsbuildinfo
+
+# package-lock.json
+package-lock.json
