@@ -32,6 +32,7 @@ export const NavNode = styled.div`
   color: white;
   cursor: pointer;
   text-transform: uppercase;
+  user-select: none;
   :hover {
     color: lightgrey;
   }
